@@ -1,0 +1,28 @@
+package com.example.multidatasource.model;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+// Entidad de MongoDB para Promociones
+@Document(collection = "promociones")
+public class Promocion {
+    @Id
+    private String id;
+    private String nombre;
+    private Double descuento;
+
+    public Promocion() {}
+
+    public Promocion(String id, String nombre, Double descuento) {
+        this.id = id;
+        this.nombre = nombre;
+        this.descuento = descuento;
+    }
+
+    public String getId() { return id; }
+    public void setId(String id) { this.id = id; }
+    public String getNombre() { return nombre; }
+    public void setNombre(String nombre) { this.nombre = nombre; }
+    public Double getDescuento() { return descuento; }
+    public void setDescuento(Double descuento) { this.descuento = descuento; }
+}
