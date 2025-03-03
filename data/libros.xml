@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+    <libro>
+        <id>1</id>
+        <titulo>El principito</titulo>
+        <autor>Antoine de Saint-Exupéry</autor>
+        <anio>1943</anio>
+    </libro>
+    <libro>
+        <id>2</id>
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <anio>1967</anio>
+    </libro>
+</libros>
